@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="LGPL-2.1"
+issueTrackerURL="https://github.com/mreilly13/Spice-of-Life-Stick/issues"
+[[mods]]
+    modId="solstick"
+    version="${file.jarVersion}"
+    displayName="Spice of Life: Stick"
+    # displayURL="https://change.me.to.your.mods.homepage.example.invalid/" // TODO
+    logoFile="logo.png"
+    # credits="" // TODO
+    authors="mreilly13"
+    displayTest="MATCH_VERSION"
+    description='''Motivate players to explore new food options. With the stick.'''
+[[dependencies.solstick]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.solstick]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "solstick:block/test_block"
+    }
+  }
+}
